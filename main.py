@@ -12,6 +12,10 @@
     pass
  # Skeleton code for sum_of_squares_of_even
  def sum_of_squares_of_even(even_int_list: List[int]) -> int:
+    sum = 0
+    for i in even_int_list:
+        sum += i*i
+    return sum
     """
     Computes the sum of the squares of all even numbers in a l
     Args:
